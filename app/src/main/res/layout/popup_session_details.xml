@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="360dp"
+    android:padding="15dp"
+    android:layout_height="500dp">
+
+
+    <TextView
+        android:id="@+id/session_title"
+        android:maxWidth="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:text="@string/session_summary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        style="@style/TitleTextStyle"/>
+
+    <ImageView
+        android:id="@+id/session_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_close"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/session_title"
+        app:layout_constraintStart_toEndOf="@id/session_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/session_title" />
+
+    <ImageView
+        android:id="@+id/session_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_delete"
+        android:layout_margin="@dimen/small_margin"
+        app:layout_constraintTop_toTopOf="@+id/session_title"
+        app:layout_constraintBottom_toBottomOf="@+id/session_title"
+        app:layout_constraintEnd_toStartOf="@id/session_title"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/session_warmup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        app:layout_constraintTop_toBottomOf="@+id/session_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/session_warmup_title"
+            style="@style/SubtitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/big_margin"
+            android:layout_marginEnd="@dimen/big_margin"
+            android:layout_marginBottom="@dimen/big_margin"
+            android:text="@string/session_warmup_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/session_warmup_content"
+            style="@style/DefaultTextStyleLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp"
+            android:layout_marginStart="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:background="@color/light_gray"
+            android:text="@string/session_warmup_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/session_warmup_title" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/session_sequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/session_warmup"
+        app:layout_constraintEnd_toEndOf="parent">
+    <TextView
+        android:id="@+id/session_sequence_title"
+        style="@style/SubtitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/big_margin"
+        android:gravity="center"
+        android:text="@string/session_sequence_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/session_sequence_content"
+            style="@style/DefaultTextStyleLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp"
+            android:layout_marginStart="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:background="@color/light_gray"
+            android:text="@string/session_sequence_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/session_sequence_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/session_stretch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/session_sequence"
+        app:layout_constraintEnd_toEndOf="parent">
+    <TextView
+        android:id="@+id/session_stretch_title"
+        style="@style/SubtitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/big_margin"
+        android:gravity="center"
+        android:text="@string/session_stretch_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/session_stretch_content"
+        style="@style/DefaultTextStyleLight"
+        android:layout_width="match_parent"
+        android:maxHeight="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_margin"
+        android:layout_marginEnd="@dimen/medium_margin"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:background="@color/light_gray"
+        android:text="@string/session_stretch_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/session_stretch_title" />
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

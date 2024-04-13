@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TrainTogether" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="android:spinnerItemStyle">@style/DefaultTextStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DefaultTextStyle</item>
+    </style>
+
+    <!-- Customize your theme here. -->
+    <style name="DefaultTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="DefaultTextStyleLight">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="SubtitleTextStyle" parent="DefaultTextStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="SubtitleTextStyle">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/kanit</item>
+    </style>
+</resources>

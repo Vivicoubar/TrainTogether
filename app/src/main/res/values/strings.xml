@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TrainTogether</string>
+
+    <!-- Home Page -->
+    <string name="home_research_bar">Type a sport name…</string>
+    <string name="home_session_title">Session Title</string>
+    <!-- Login Page -->
+    <string name="login_intro">Ready to fight!</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_to_register">Don\'t have an account? Create it here!</string>
+    <string name="login_problem">Got a problem? Don\'t hesitate to contact our customer support</string>
+    <!-- Register Page-->
+    <string name="register_intro">Create an account</string>
+    <string name="register_firstname">Firstname</string>
+    <string name="register_name">Name</string>
+    <string name="register_pseudo">Pseudo</string>
+    <string name="register_button">Register</string>
+    <string name="register_mobile">Mobile number</string>
+    <string name="register_email">Email</string>
+    <!-- Create a session Page-->
+    <string name="create_intro">Your session</string>
+    <string name="create_cancel">Cancel</string>
+    <string name="create_validate">Register</string>
+    <string name="create_choose_sport">Choose your sport</string>
+    <string name="create_summary">Summary</string>
+    <string name="create_warmup">Session Warmup</string>
+    <string name="create_sequence">Session sequence</string>
+    <string name="create_stretch">Session stretch</string>
+    <!-- Session Popup -->
+    <string name="session_summary">Summary</string>
+    <string name="session_warmup_title">Warmup</string>
+    <string name="session_warmup_content">Warmup content</string>
+    <string name="session_sequence_title">Session sequence</string>
+    <string name="session_sequence_content">Session content</string>
+    <string name="session_stretch_title">Session stretch</string>
+    <string name="session_stretch_content">Stretch content</string>
+    <!-- Account Page -->
+    <string name="account_intro">Account</string>
+    <string name="account_disconnect">Disconnect</string>
+    <string name="account_to_settings">Settings</string>
+    <string name="account_to_details">My details</string>
+    <string name="account_user">User</string>
+    <string name="account_email">Email</string>
+    <!-- Parameters Page -->
+    <string name="settings_intro">Settings</string>
+    <string name="settings_change_password">Change my password</string>
+    <string name="settings_notification">Notifications</string>
+    <string name="settings_contact">Contact us</string>
+    <!-- My Details Page -->
+    <string name="details_intro">My Details</string>
+    <string name="details_back">Back</string>
+    <!-- Change password Page -->
+    <string name="password_intro">Reset password</string>
+    <string name="password_new">New password</string>
+    <string name="password_confirm">Confirm password</string>
+    <string name="password_button">Change password</string>
+
+    <string-array name="create_sports">
+        <item>Football</item>
+        <item>Running</item>
+        <item>Swimming</item>
+        <item>Tennis</item>
+        <item>Ski</item>
+        <item>Rugby</item>
+    </string-array>
+
+    <string-array name="sports">
+        <item> </item>
+        <item>All</item>
+        <item>Football</item>
+        <item>Running</item>
+        <item>Swimming</item>
+        <item>Tennis</item>
+        <item>Ski</item>
+        <item>Rugby</item>
+    </string-array>
+
+    <string name="bottom_home_item">Home</string>
+    <string name="bottom_add_item">Add</string>
+    <string name="bottom_profile_item">Profile</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "437877696583",
+    "firebase_url": "https://traintogether-ed48a-default-rtdb.firebaseio.com",
+    "project_id": "traintogether-ed48a",
+    "storage_bucket": "traintogether-ed48a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437877696583:android:e0e36b260c705c0261a962",
+        "android_client_info": {
+          "package_name": "fr.a2s.traintogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437877696583-a903cgs9e626ug4d3ce58gocaorgfb1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC7wZCIzYmvfkQTAcHrbzFh3Y_zcdouu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437877696583-a903cgs9e626ug4d3ce58gocaorgfb1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
